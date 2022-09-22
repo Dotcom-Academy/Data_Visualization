@@ -1,0 +1,71 @@
+
+Dataset link:- https://github.com/Dotcom-Academy/Data_Visualization/blob/main/Dataset/Home_work_1.csv
+
+
+# In Company column remove "," from the cell value 
+
+example   ->   
+
+		AiAdvertising, Inc. 		->	"AiAdvertising Inc."
+		Alpine 4 Holdings, Inc.		->	"Alpine 4 Holdings Inc."
+		Aris Water Solutions, Inc.	->	"Aris Water Solutions Inc."
+
+# clean garbage symbol from each column name
+
+        ("`"   ->   "")
+
+
+        ("'"   ->   "")
+
+
+        (" ,"   ->   ",")
+  
+        
+        ("["   ->   "(")
+        
+
+        ("]"   ->   ")")
+        
+
+        ("S&P 500 - ETF"   ->   "S&P 500")
+        
+
+        ("Earnings ESP (Expected Surprise Prediction)"   ->   "Earnings ESP")
+        
+
+        ("%"   ->   "")
+    
+
+        (". ($mil)"   ->   " (Mil)")
+        
+
+        (" (mil)"   ->   "")
+    
+
+        ("($mil)"   ->   "")
+
+
+        ("(yyyymm)"   ->   "")
+        
+
+        ("(yyyymmdd)"   ->   "")
+    
+
+        ("Last Close"   ->   "price")
+        
+
+# Change Alphabet value to numeric value for those columns ["Value Score", "Growth Score", "Momentum Score", "VGM Score"]
+
+"A"   ->   1
+"B"   ->   2
+"C"   ->   3
+"D"   ->   4
+"F"   ->   5
+
+
+# Fill all the "nan" values using mean, median or mode
+
+
+
+
+
